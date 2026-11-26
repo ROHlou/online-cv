@@ -13,6 +13,20 @@ sidebar:
 
     # Sidebar links
     email: yousungroh@postech.ac.kr
+    phone:
+    citizenship:
+    website: #do not add http://
+    linkedin:
+    xing:
+    github:
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf:
 
     languages:
       - idiom: Korean
@@ -60,7 +74,7 @@ experiences:
       details: |
         Studied efficient deep learning architectures.
 
-    - role: Student Ambassador (Alimi)
+    - role: Student Ambassador ("Alimi")
       time: May 2020 - May 2023
       company: POSTECH
       details: |
