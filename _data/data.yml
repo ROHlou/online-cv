@@ -86,6 +86,12 @@ experiences:
     details: |
       Advisor: Prof. Seokhyeong Kang
 
+  - role: Mandatory Military Service
+    time: Jul 2024 - Dec 2025
+    company: Republic of Korea Army
+    details: |
+      Sergeant, honorably discharged upon completion of service.
+
   - role: Undergraduate Research Intern
     time: Sep 2023 - Feb 2024
     company: Efficient Learning Laboratory, POSTECH
@@ -105,12 +111,12 @@ skills:
   # TODO: 실제 쓰는 언어·툴로 이름과 숙련도(%)를 조정하세요
   toolset:
   - name: Python
-    level: 65%
+    level: 55%
 
   - name: C / C++
-    level: 65%
+    level: 55%
 
-  - name: Verilog HDL
+  - name: Verilog
     level: 50%
 
 footer: >
