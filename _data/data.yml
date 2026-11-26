@@ -74,8 +74,8 @@ education:
   info:
   - degree: B.S. in Electrical Engineering
     university: POSTECH (Pohang University of Science and Technology)
-    time: 2020 - 2027.02 (Expected)
-    details: 
+    time: 2020 - 2027.02 (Expected) # TODO: 입학년도 / 졸업 예정 시기 확인 (예: 2020 - 2027.02 (Expected))
+    details: |
 
 experiences:
   title: Experiences
@@ -99,12 +99,6 @@ experiences:
       Official student ambassador of POSTECH, introducing the university
       to prospective students.
 
-   - role: Military Service
-     time: Jul 2024 - Dec 2025
-     company: Republic of Korea Army
-     details: |
-       Completed mandatory military service.
-
 
 skills:
   title: Skills &amp; Proficiency
@@ -112,10 +106,10 @@ skills:
   # TODO: 실제 쓰는 언어·툴로 이름과 숙련도(%)를 조정하세요
   toolset:
   - name: Python
-    level: 60%
+    level: 50%
 
   - name: C / C++
-    level: 60%
+    level: 50%
 
   - name: Verilog HDL
     level: 50%
