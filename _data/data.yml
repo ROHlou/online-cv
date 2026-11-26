@@ -3,96 +3,116 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  position: right # position of the sidebar : left or right
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Yousung Roh
-    tagline: Undergraduate Student at POSTECH, Korea
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Yousung Roh
+  tagline: Undergraduate Student at POSTECH, Korea
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: yousungroh@postech.ac.kr
-    phone:
-    citizenship:
-    website: #do not add http://
-    linkedin:
-    xing:
-    github:
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter:
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf:
+  # Sidebar links
+  email: yousungroh@postech.ac.kr
+  phone:
+  timezone:  # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship:
+  website:  # Include the full website URL, including "http://" or "https://".
+  linkedin:
+  xing:
+  github:
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  bluesky: # Specify your full Bluesky handle
+  twitter:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  mastodon: # Please include your full Mastodon link here.
+  hackerrank: # Please provide your HackerRank username.
+  leetcode: # Please provide your LeetCode username.
+  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
-    languages:
-      - idiom: Korean
-        level: Native
+  languages:
+    title: Languages
+    info:
+    - idiom: Korean
+      level: Native
 
-      - idiom: English
-        level: Intermediate
+    - idiom: English
+      level: Intermediate
 
-      - idiom: Japanese
-        level: Elementary
+    - idiom: Japanese
+      level: Elementary
 
-    interests:
-      - item: Physical Design
-        link:
+  interests:
+    title: Interests
+    info:
+    - item: Physical Design
+      link:
 
-      - item: Electronic Design Automation
-        link:
 
-      - item: Artificial Intelligence
-        link:
+    - item: Electronic Design Automation
+      link:
+
+
+    - item: Artificial Intelligence
+      link:
+
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Undergraduate student in Electrical Engineering at POSTECH and research
-      intern at CSDL. My interests lie in physical design and electronic
-      design automation (EDA), with a focus on applying AI to optimize the
-      synthesis and placement stages of the chip design flow.
+  title: Career Profile
+  summary: |
+    Undergraduate student in Electrical Engineering at POSTECH and research
+    intern at CSDL. My interests lie in physical design and electronic
+    design automation (EDA), with a focus on applying AI to optimize the
+    synthesis and placement stages of the chip design flow.
 
 education:
-    - degree: B.S. in Electrical Engineering
-      university: POSTECH (Pohang University of Science and Technology)
-      time: 2020 - 2027.02 (Expected)
-
+  title: Education
+  info:
+  - degree: B.S. in Electrical Engineering
+    university: POSTECH (Pohang University of Science and Technology)
+    time: 2020 - 2027.02 (Expected)
+    details: |
+    
 experiences:
-    - role: Undergraduate Research Intern
-      time: Sep 2026 - Present
-      company: CAD & SoC Design Lab (CSDL), POSTECH
-      details: |
-        Advisor: Prof. Seokhyeong Kang
+  title: Experiences
+  info:
+  - role: Undergraduate Research Intern
+    time: Sep 2026 - Present
+    company: CAD & SoC Design Lab (CSDL), POSTECH
+    details: |
+      Advisor: Prof. Seokhyeong Kang
 
-    - role: Undergraduate Research Intern
-      time: Sep 2023 - Feb 2024
-      company: Efficient Learning Laboratory, POSTECH
-      details: |
-        Studied efficient deep learning architectures.
+  - role: Undergraduate Research Intern
+    time: Sep 2023 - Feb 2024
+    company: Efficient Learning Laboratory, POSTECH
+    details: |
+      Studied efficient deep learning architectures.
 
-    - role: Student Ambassador ("Alimi")
-      time: May 2020 - May 2023
-      company: POSTECH
-      details: |
-        Official student ambassador of POSTECH, introducing the university
-        to prospective students.
+  - role: Student Ambassador (Alimi)
+    time: May 2020 - May 2023
+    company: POSTECH
+    details: |
+      Official student ambassador of POSTECH, introducing the university
+      to prospective students.
+
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python
-        level: 50%
+  # TODO: 실제 쓰는 언어·툴로 이름과 숙련도(%)를 조정하세요
+  toolset:
+  - name: Python
+    level: 50%
 
-      - name: C / C++
-        level: 50%
+  - name: C / C++
+    level: 50%
 
-      - name: Verilog HDL
-        level: 50%
+  - name: Verilog HDL
+    level: 50%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
