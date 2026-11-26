@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Yousung Roh
-    tagline: B.S. Student at CSDL, POSTECH, Korea
+    tagline: Undergraduate Student at POSTECH, Korea
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -66,7 +66,7 @@ experiences:
       time: Sep 2026 - Present
       company: CAD & SoC Design Lab (CSDL), POSTECH
       details: |
-        Research on AI-driven EDA optimization for physical design.
+        Advisor: Prof. Seokhyeong Kang
 
     - role: Undergraduate Research Intern
       time: Sep 2023 - Feb 2024
