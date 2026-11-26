@@ -75,7 +75,6 @@ education:
   - degree: B.S. in Electrical Engineering
     university: POSTECH (Pohang University of Science and Technology)
     time: 2020 - 2027.02 (Expected) # TODO: 입학년도 / 졸업 예정 시기 확인 (예: 2020 - 2027.02 (Expected))
-    details: |
 
 experiences:
   title: Experiences
