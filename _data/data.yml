@@ -8,24 +8,24 @@ sidebar:
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
+  name: Yousung Roh
+  tagline: B.S. Student at CSDL, POSTECH, Korea
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  email: yousungroh@postech.ac.kr
+  phone:
+  timezone:  # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
+  website:  # Include the full website URL, including "http://" or "https://".
+  linkedin:
+  xing:
+  github:
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
+  bluesky: # Specify your full Bluesky handle
+  twitter:
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -37,249 +37,170 @@ sidebar:
   languages:
     title: Languages
     info:
-    - idiom: English
+    - idiom: Korean
       level: Native
 
-    - idiom: French
-      level: Professional
+    - idiom: English
+      level: Intermediate
 
-    - idiom: Spanish
-      level: Professional
+    - idiom: Japanese
+      level: Elementary
 
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Physical Design
       link:
 
 
-    - item: Snowboarding
+    - item: Electronic Design Automation
       link:
 
 
-    - item: Cooking
+    - item: Artificial Intelligence
       link:
 
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Undergraduate student in Electrical Engineering at POSTECH and research
+    intern at CSDL. My interests lie in physical design and electronic
+    design automation (EDA), with a focus on applying AI to optimize the
+    synthesis and placement stages of the chip design flow.
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: B.S. in Electrical Engineering
+    university: POSTECH (Pohang University of Science and Technology)
+    time: 2020 - 2027.02 (Expected)
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Relevant coursework:
+
+        - VLSI Analysis & Design SW (EECE667)
+        - Introduction to Electromagnetics (EECE261)
+        - Circuit Theory, Electronic Circuits
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Undergraduate Research Intern
+    time: Sep 2026 - Present
+    company: CSDL, POSTECH # TODO: 연구실 정식 명칭(영문)과 지도교수명 추가 권장
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Research on AI-driven EDA optimization for physical design.
 
-certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+        - Studied "Improving Timing & Power Trade-off in Post-place
+          Optimization Using Multi-agent RL" (ICCAD 2024) and presented
+          it in a poster session
+        - Developing a research topic for NISICS, an undergraduate
+          conference on next-generation semiconductors
 
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+  - role: Undergraduate Research Intern
+    time: Sep 2023 - Feb 2024
+    company: Efficient Learning Laboratory, POSTECH
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      Studied efficient deep learning architectures.
+
+        - Analyzed the ByteFormer paper and presented it at a lab seminar
+        - Led a CS231n (Deep Learning for Computer Vision) study group
+
+  - role: Student Ambassador ("Alimi")
+    time: May 2020 - May 2023
+    company: POSTECH
+    # TODO: 캠퍼스 투어·입시 설명회 등 실제로 했던 활동 1~2줄 추가
+    details: |
+      Official student ambassador of POSTECH, introducing the university
+      to prospective students.
+
+  # TODO: 병역을 넣고 싶다면 아래 주석을 풀고 복무 기간·군별을 채우세요
+  # - role: Military Service
+  #   time:
+  #   company: Republic of Korea Army
+  #   details: |
+  #     Completed mandatory military service.
+
+# Certifications: 해당 항목이 없어 비활성화 (주석을 풀면 다시 표시됨)
+# certifications:
+#   title: Certifications
+#   list:
+#   - name:
+#     start:
+#     end:
+#     organization:
+#     credentialid:
+#     credentialurl:
+#     credentialname:
+#     details: |
 
 projects:
   title: Projects
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    Selected course and research projects in VLSI physical design and machine learning.
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
+  - title: VLSI Placer Implementation
     link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+    tagline: "Term project for EECE667 (VLSI Analysis & Design SW): implementing a placement tool from scratch (in progress, Dec 2026)."
 
-  - title: Tempo
+  - title: "Poster: Multi-agent RL for Post-place Optimization"
     link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    tagline: "Poster presentation of an ICCAD 2024 paper on improving the timing-power trade-off in post-place optimization with multi-agent reinforcement learning."
 
-  - title: Atom
+  - title: "Seminar: ByteFormer Paper Analysis"
     link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    tagline: "Paper analysis and lab seminar on ByteFormer at the Efficient Learning Laboratory, POSTECH."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+# OSS Contributions: 해당 항목이 없어 비활성화
+# oss:
+#   title: OSS Contributions
+#   intro: >
+#   contributions:
+#   - title:
+#     link: "#"
+#     tagline: ""
 
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+# Publications: 본인 저자 논문이 생기면 주석을 풀고 채우세요
+# publications:
+#   title: Publications
+#   intro: |
+#   papers:
+#   - title:
+#     link: "#"
+#     authors: Yousung Roh
+#     conference:
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+# Recommendations: 추천인 정보는 추천인 동의 후에만 넣으세요
+# recommendations:
+#   title: Recommendations
+#   list:
+#   - person:
+#     email:
+#     phone:
+#     role:
+#     recommendation: |
 
 skills:
   title: Skills &amp; Proficiency
 
+  # TODO: 실제 쓰는 언어·툴로 이름과 숙련도(%)를 조정하세요
   toolset:
-  - name: Python & Django
-    level: 98%
+  - name: Python
+    level: 80%
 
-  - name: Javascript & jQuery
-    level: 98%
+  - name: C / C++
+    level: 70%
 
-  - name: Angular
-    level: 98%
+  - name: Verilog HDL
+    level: 70%
 
-  - name: HTML5 & CSS
-    level: 95%
+  - name: Logic Synthesis & Place-and-Route (EDA tools)
+    level: 60%
 
-  - name: Ruby on Rails
-    level: 85%
+  - name: PyTorch
+    level: 60%
 
-  - name: Sketch & Photoshop
+  - name: Linux
     level: 60%
 
 footer: >
