@@ -75,12 +75,7 @@ education:
   - degree: B.S. in Electrical Engineering
     university: POSTECH (Pohang University of Science and Technology)
     time: 2020 - 2027.02 (Expected)
-    details: |
-      Relevant coursework:
-
-        - VLSI Analysis & Design SW (EECE667)
-        - Introduction to Electromagnetics (EECE261)
-        - Circuit Theory, Electronic Circuits
+    details: 
 
 experiences:
   title: Experiences
@@ -91,94 +86,25 @@ experiences:
     details: |
       Research on AI-driven EDA optimization for physical design.
 
-        - Studied "Improving Timing & Power Trade-off in Post-place
-          Optimization Using Multi-agent RL" (ICCAD 2024) and presented
-          it in a poster session
-        - Developing a research topic for NISICS, an undergraduate
-          conference on next-generation semiconductors
-
   - role: Undergraduate Research Intern
     time: Sep 2023 - Feb 2024
     company: Efficient Learning Laboratory, POSTECH
     details: |
       Studied efficient deep learning architectures.
 
-        - Analyzed the ByteFormer paper and presented it at a lab seminar
-        - Led a CS231n (Deep Learning for Computer Vision) study group
-
   - role: Student Ambassador ("Alimi")
     time: May 2020 - May 2023
     company: POSTECH
-    # TODO: 캠퍼스 투어·입시 설명회 등 실제로 했던 활동 1~2줄 추가
     details: |
       Official student ambassador of POSTECH, introducing the university
       to prospective students.
 
-  # TODO: 병역을 넣고 싶다면 아래 주석을 풀고 복무 기간·군별을 채우세요
-  # - role: Military Service
-  #   time:
-  #   company: Republic of Korea Army
-  #   details: |
-  #     Completed mandatory military service.
+   - role: Military Service
+     time: Jul 2024 - Dec 2025
+     company: Republic of Korea Army
+     details: |
+       Completed mandatory military service.
 
-# Certifications: 해당 항목이 없어 비활성화 (주석을 풀면 다시 표시됨)
-# certifications:
-#   title: Certifications
-#   list:
-#   - name:
-#     start:
-#     end:
-#     organization:
-#     credentialid:
-#     credentialurl:
-#     credentialname:
-#     details: |
-
-projects:
-  title: Projects
-  intro: >
-    Selected course and research projects in VLSI physical design and machine learning.
-  assignments:
-  - title: VLSI Placer Implementation
-    link: "#"
-    tagline: "Term project for EECE667 (VLSI Analysis & Design SW): implementing a placement tool from scratch (in progress, Dec 2026)."
-
-  - title: "Poster: Multi-agent RL for Post-place Optimization"
-    link: "#"
-    tagline: "Poster presentation of an ICCAD 2024 paper on improving the timing-power trade-off in post-place optimization with multi-agent reinforcement learning."
-
-  - title: "Seminar: ByteFormer Paper Analysis"
-    link: "#"
-    tagline: "Paper analysis and lab seminar on ByteFormer at the Efficient Learning Laboratory, POSTECH."
-
-# OSS Contributions: 해당 항목이 없어 비활성화
-# oss:
-#   title: OSS Contributions
-#   intro: >
-#   contributions:
-#   - title:
-#     link: "#"
-#     tagline: ""
-
-# Publications: 본인 저자 논문이 생기면 주석을 풀고 채우세요
-# publications:
-#   title: Publications
-#   intro: |
-#   papers:
-#   - title:
-#     link: "#"
-#     authors: Yousung Roh
-#     conference:
-
-# Recommendations: 추천인 정보는 추천인 동의 후에만 넣으세요
-# recommendations:
-#   title: Recommendations
-#   list:
-#   - person:
-#     email:
-#     phone:
-#     role:
-#     recommendation: |
 
 skills:
   title: Skills &amp; Proficiency
@@ -186,22 +112,13 @@ skills:
   # TODO: 실제 쓰는 언어·툴로 이름과 숙련도(%)를 조정하세요
   toolset:
   - name: Python
-    level: 80%
+    level: 60%
 
   - name: C / C++
-    level: 70%
+    level: 60%
 
   - name: Verilog HDL
-    level: 70%
-
-  - name: Logic Synthesis & Place-and-Route (EDA tools)
-    level: 60%
-
-  - name: PyTorch
-    level: 60%
-
-  - name: Linux
-    level: 60%
+    level: 50%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
